@@ -18,7 +18,7 @@ https://openai.com/chatgpt
 
 イメージ的には以下のような感じになります。
 
-![Alt text](%E5%90%8D%E7%A7%B0%E6%9C%AA%E8%A8%AD%E5%AE%9A%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB.drawio.png)
+![](/images/chatgpt.png)
 
 しかし、ChatGPTは **質問に対して必ず正しい答えを出すとは限りません。**
 
@@ -26,7 +26,7 @@ https://openai.com/chatgpt
 
 京都大学 情報学研究科の教授である湊 真一さんの[講演資料](https://www.nii.ac.jp/event/upload/20230707-03_Minato.pdf)によると、3桁×3桁 (125×250, 200×465 etx..)の計算でも、3回目でようやく正しい回答を得ることができたと記載されています。(スライド資料8-9)
 
-![Alt text](<名称未設定ファイル.drawio (1).png>)
+![](/images/chatgpt_calc.png)
 
 つまり、ChatGPTの情報はあくまで参考程度として把握することとし、適宜必要な情報については公式資料や文献等の一次情報から取得することをおススメします！
 
@@ -44,7 +44,7 @@ https://qiita.com/Keichan_15/items/9a2b7f6192704a122df3
 
 とは言っても中々言葉でイメージするのは難しいと思うので、これも図で理解してみましょう。
 
-![Alt text](<名称未設定ファイル.drawio (3).png>)
+![](/images/api.png)
 
 まず、ユーザーは東京の今日の天気を知りたがっているとします。
 
