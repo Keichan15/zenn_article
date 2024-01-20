@@ -1,8 +1,8 @@
 title: "ChatGPT-API x Node.jsでお手軽GPT環境構築"
 summary: "ChatGPT-APIとNode.jsを使用して、ローカル環境にChatGPTの環境を手軽に構築する本となっています。"
-topics: ["ChatGPT", "Node.js", "JavaScript"] # トピック（5つまで）
+topics: ["ChatGPT", "Nodejs", "JavaScript"] # トピック（5つまで）
 published: false # falseだと下書き
 price: 0 # 有料の場合200〜5000
 chapters:
-  - introduction.md
-  - about_techword.md
+  - introduction
+  - about_techword
