@@ -32,7 +32,7 @@ https://prog-8.com/docs/nodejs-env
 
 ![](/images/node_ver.png)
 
-次の[Visual Studio Codeのインストール]()にお進みください。
+次の[Visual Studio Codeのインストール](#visual-studio-codeのインストール)にお進みください。
 
 :::message alert
 既に上記でNode.jsを導入済みの場合、以降の[Node.jsのインストール]()を実施して頂く必要はありません。
@@ -79,8 +79,8 @@ https://prog-8.com/docs/nodejs-env
 
 次はコードを書く際に必要となるコードエディターの**Visual Studio Code**を導入していきましょう！
 
-## Visual Studio Codeの導入
-Visual Studio CodeはMicrosoftが提供する、無償のコードエディタです。
+## Visual Studio Codeのインストール
+**Visual Studio Code**はMicrosoftが提供する、無償のコードエディタです。
 
 各プラットフォーム(Windows, Mac, Linux)に対応しており、豊富な拡張機能を兼ね備えています。
 
