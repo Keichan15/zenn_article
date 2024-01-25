@@ -123,7 +123,7 @@ https://platform.openai.com/docs/api-reference/chat/create
 このリファレンスでは、該当URLにリクエストを投げると、どのようなレスポンス(データ)を返却してくれるかが記載されています。
 
 リファレンスにあるCurlコマンドを例とすると、以下が投げるリクエストになり、、
-
+v
 ```terminal
 curl https://api.openai.com/v1/chat/completions \
   -H "Content-Type: application/json" \
