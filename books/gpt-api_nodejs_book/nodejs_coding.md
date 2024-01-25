@@ -315,7 +315,7 @@ main();
 ```terminal:terminal
 > node index.js
 ```
-
+![Alt text](/images/node-18.png)
 
 ただ今の状態では毎度コマンドを実行する度、質問内容は「こんにちは！」が固定の状態です。
 
