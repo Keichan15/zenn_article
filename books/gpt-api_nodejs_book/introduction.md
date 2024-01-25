@@ -30,9 +30,9 @@ https://github.com/Keichan15
 この本で作成したアプリケーションは以下のGitHubリポジトリにも配置しております。
 Node.js **v16**, **v18**, **v20**で動作確認済です。
 
-READMEは後々書いていきます。。
+https://github.com/Keichan15/ChatGPT-API_Nodejs_Template
 
-
+READMEに簡単ですが利用方法を記載しています。
 
 ## その他
 不明点や間違い等ございましたら、お気軽にコメント頂けますと幸いです！
