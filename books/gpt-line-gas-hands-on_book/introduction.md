@@ -26,13 +26,5 @@ https://qiita.com/Keichan_15
 
 https://github.com/Keichan15
 
-## 完成版アプリケーションについて
-この本で作成したGASアプリケーションは以下のGitHubリポジトリにも配置しております。
-
-https://github.com/Keichan15/ChatGPT-API_Nodejs_Template
-
-READMEに簡単ですが利用方法を記載しています。
-順次不足している点は追記していきますが、
-
 ## その他
 不明点や間違い等ございましたら、お気軽にコメント頂けますと幸いです！
