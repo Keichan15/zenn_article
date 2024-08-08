@@ -1,8 +1,12 @@
 title: "ChatGPT-API x GASでトークLINE Botを作ってみよう！"
 summary: "ChatGPT-API, LINE Messaging API, GASを使用して、Chat-GPTとの対話をLINEで実現できるハンズオン形式の本となっています。"
 topics: ["ChatGPT", "GAS", "API"] # トピック（5つまで）
-published: false # falseだと下書き
+published: true # falseだと下書き
 price: 0 # 有料の場合200〜5000
 chapters:
   - introduction
+  - about_techword
+  - setup
+  - coding_in_gas
+  - deploy_and_op_check
   - end
