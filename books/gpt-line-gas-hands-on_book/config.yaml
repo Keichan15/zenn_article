@@ -5,8 +5,4 @@ published: false # falseだと下書き
 price: 0 # 有料の場合200〜5000
 chapters:
   - introduction
-  - about_techword
-  - tool_install
-  - chatgpt_api_lesson
-  - nodejs_coding
   - end

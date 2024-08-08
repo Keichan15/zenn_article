@@ -29,91 +29,91 @@ OpenAI APIキーは以降の実装時に使用するので、必ずどこかに�
 
 https://developers.line.biz/ja/
 
-![alt text](image.png)
+![](/images/image.png)
 
 右上の```コンソールにログイン```をクリック。
 
-![alt text](image-1.png)
+![](/images/image-1.png)
 
 ```LINEアカウントでログイン```をクリック。
 
-![alt text](image-2.png)
+![](/images/image-2.png)
 
 お好きな方法でログインしてください。
 個人的にはQRコードログインが簡単でした。
 
 ログインが完了し以下の画面が表示されていればOKです。
 
-![alt text](image-3.png)
+![](/images/image-3.png)
 
 ## 基本情報設定とチャンネルアクセストークンの取得
 ログインしたついでに基本情報の設定と、GASの実装時に必要なチャンネルアクセストークンを取得します。
 
 ```新規プロバイダー作成```をクリックします。
 
-![alt text](image-4.png)
+![](/images/image-4.png)
 
 プロバイダー名を入力します。今回は**test_gpt_bot**としました。
 
-![alt text](image-5.png)
+![](/images/image-5.png)
 
 ```作成```ボタンをクリックするとプロバイダーが作成されます。
 
 ```プロバイダー設定```のタブを開き、作成したプロバイダーが確認できればOKです。
 
-![alt text](image-6.png)
+![](/images/image-6.png)
 
 続いて```チャネル設定```のタブを開き、左から2番目の```Messaging API```をクリックします。
 
-![alt text](image-7.png)
+![](/images/image-7.png)
 
 クリックすると基本情報を入力する箇所があるので、こちらは任意の内容を入力しましょう。
 自分はこんな感じで入力しました。
 
-![alt text](image-8.png)
+![](/images/image-8.png)
 
-![alt text](image-9.png)
+![](/images/image-9.png)
 
 ちなみに僕は有名人でもコメディアンでもないです・・。
 
 最後にチェックボックスにチェックを入れるのをお忘れなく！
 
-![alt text](image-10.png)
+![](/images/image-10.png)
 
 ```作成```を押すと以下のモーダルウィンドウが表示されるので、問題なければ```OK```をクリックしましょう。
 
-![alt text](image-11.png)
+![](/images/image-11.png)
 
 ```同意する```をクリック。
 
-![alt text](image-12.png)
+![](/images/image-12.png)
 
 ```同意する```をクリック。
 
-![alt text](image-13.png)
+![](/images/image-13.png)
 
 これでGPTくんのBotが作れました。
 
-![alt text](image-14.png)
+![](/images/image-14.png)
 
 ```Messaging API設定```のタブを開くとQRコードが表示されています。
 このQRコードを読み取ると、GPTくんの公式アカウントを友達追加できます。
 
 つまりこのGPTくんの公式アカウントにメッセージを送り、返信が来るといった仕組みになります。
 
-![alt text](image-15.png)
+![](/images/image-15.png)
 
 続いて少し下にスクロールすると```応答メッセージ```と```あいさつメッセージ```を編集する画面が表示されます。
 こちらはそれぞれ無効にしておきます。
 
-![alt text](image-16.png)
+![](/images/image-16.png)
 
-![alt text](image-17.png)
+![](/images/image-17.png)
 
 最後に```チャンネルアクセストークン```を取得します。
 このトークンがGASで必要になるので、必ずどこかにメモしておいてくださいね。
 
-![alt text](image-18.png)
+![](/images/image-18.png)
 
 
 ## GASの準備
@@ -121,3 +121,22 @@ https://developers.line.biz/ja/
 
 GASはGoogleスプレッドシート内から開くことができます。
 まずはご自身のGoogleアカウントにログインいただき、以下のリンクにアクセスしてGoogleスプレッドシートを作成します。
+
+https://docs.google.com/spreadsheets/u/0/
+
+```空白のスプレッドシート```をクリックします。
+
+![](/images/image-19.png)
+
+タブの```拡張機能```から```Apps Script```をクリック。
+
+![](/images/image-20.png)
+
+このようにプロジェクトが作成されていればOKです！
+GASの準備はこれだけなので、ほんと良心的ですよね。
+
+![](/images/image-21.png)
+
+これで必要な準備は整いました。
+
+さて、次はいよいよGASの実装です！
