@@ -29,10 +29,10 @@ GASにはこの環境変数の仕組みとして**スクリプトプロパティ
 ![](/images/image-25.png)
 
 それぞれ以下の条件でトークンを設定します。
-- OPEN_AI_API_KEY
-  - 前章で取得したOpenAIのAPIキー
-- LINE_CHANNEL_ACCESS_TOKEN
-  - 前章で取得したLINE developersのチャンネルアクセストークン
+- **OPEN_AI_API_KEY**
+  - 前章で取得した**OpenAIのAPIキー**
+- **LINE_CHANNEL_ACCESS_TOKEN**
+  - 前章で取得した**LINE developersのチャンネルアクセストークン**
 
 実際の入力例は以下になります。
 問題なければ```スクリプト プロパティを保存```をクリック。
