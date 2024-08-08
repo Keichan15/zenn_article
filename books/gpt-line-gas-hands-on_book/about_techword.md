@@ -90,10 +90,25 @@ GASは様々なサービスと連携し、自動化を行うツールとして�
 ここからは私がプライベートでは主にWeb領域の内容について触れているので、それらをベースにお話ししていきます。
 
 フロントエンド領域ではReactのフレームワークである[Next.js](https://nextjs.org/)などが有名ですが、Next.jsのデプロイは[Vercel](https://vercel.com/)を使用します。
+
+https://nextjs.org/
+
+https://vercel.com/
+
 Vercelの場合は基本的にNext.jsのアプリケーションを[GitHub](https://github.co.jp/)に配置していれば、VercelはそのGitHubリポジトリを参照してデプロイをしてくれます。割とこれは神だなあと使用して思いました。
 
+https://github.co.jp/
+
 バックエンド領域では[Ruby on Rails](https://rubyonrails.org/)などでしょうか。
-小規模のサービスであれば[fly.io](https://fly.io/)といったアプリケーションを解析してDockerfileを生成し、そのDockerfileをもとにデプロイする機能などもありますが、大規模サービスとなると[EC2](https://aws.amazon.com/jp/ec2/)や[ECS](https://aws.amazon.com/jp/ecs/), [RDS]https://aws.amazon.com/jp/rds/()といったサービスを組み合わせる必要があり、AWS様のお力を全面的に借りることになるでしょう。(オンプレの話は一旦スルーします、、)
+小規模のサービスであれば[fly.io](https://fly.io/)といったアプリケーションを解析してDockerfileを生成し、そのDockerfileをもとにデプロイする機能などもありますが、大規模サービスとなると[EC2](https://aws.amazon.com/jp/ec2/)や[ECS](https://aws.amazon.com/jp/ecs/), [RDS](https://aws.amazon.com/jp/rds/)といったサービスを組み合わせる必要があり、AWS様のお力を全面的に借りることになるでしょう。(オンプレの話は一旦スルーします、、)
+
+https://rubyonrails.org/
+
+https://aws.amazon.com/jp/ec2/
+
+https://aws.amazon.com/jp/ecs/
+
+https://aws.amazon.com/jp/rds/
 
 つまり領域によってはこのデプロイまでの手順が非常に面倒で、かつ工数も増えるといった側面があります。
 
