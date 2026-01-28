@@ -10,6 +10,7 @@ https://knowledge.broadcom.com/external/article/226420
 画像も差し込みながら解説します。
 
 1. Broadcomのサポートページにアクセスする
+
 https://support.broadcom.com/
 
 ![](/images/vmware_and_ai_knkwledge_book/image-1.png)
@@ -37,10 +38,11 @@ https://support.broadcom.com/
     - ユーザー名の一部をパスワードに使用することは出来ません
 ![](/images/vmware_and_ai_knkwledge_book/image-6.png)
 
-6．「I'll do it later」をクリック
+6. 「I'll do it later」をクリック
 ![](/images/vmware_and_ai_knkwledge_book/image-7.png)
 
 これでベーシックユーザーアカウントの作成が完了しました。
+
 次にVMWare Workstation Proをインストールしてみましょう。
 
 ## VMWare Workstation Proのインストール
@@ -82,6 +84,7 @@ https://knowledge.broadcom.com/external/article/226522
 7. VMWare Workstation Proのexe実行
 ※途中でアップグレードのキャプチャがありますが、私の環境には既に入っているためです。
 　初めてインストールされる方はインストールの表記になると思います
+
 ![](/images/vmware_and_ai_knkwledge_book/image-20.png)
 ![](/images/vmware_and_ai_knkwledge_book/image-21.png)
 ![](/images/vmware_and_ai_knkwledge_book/image-22.png)
