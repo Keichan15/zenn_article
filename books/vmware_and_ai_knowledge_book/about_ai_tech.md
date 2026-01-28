@@ -99,7 +99,7 @@ Claude Codeは最近使い始めたのですが、感覚的にはOpenAIのChatGP
 
 ちなみにClaude Codeの場合はsettings.jsonを使用すれば、操作によって OK or NG を設定することができるので、勝手に実行されて環境が破壊されるといった内容は設定によって制御できますのでご安心ください。
 
-### 生成AI時代において注意しなければならないこと
+## 生成AI時代において注意しなければならないこと
 大きく2点あります。
 
 1点目に関して、これは生成AIが出た当初から言われていた内容ですが、 **生成AIが出力した情報は必ず精査する必要が有る** という点です。
@@ -154,3 +154,8 @@ https://stablediffusionweb.com/ja
 
 https://github.com/AUTOMATIC1111/stable-diffusion-webui?tab=readme-ov-file
 
+## 最後に
+ちなみにこのページの半分くらいは、Claude Code君に書いてもらってます。
+ご参考まで～
+
+![](/images/vmware_and_ai_knkwledge_book/image-34.png)
