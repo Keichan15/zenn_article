@@ -1,7 +1,7 @@
 title: "VMWare Workstaion Proによる仮想環境構築の手引きとAI利活用入門"
 summary: "VMWare Workstaion Proを使用して、仮想環境を構築するハンズオンを中心とした内容です。一部昨今のAIを利活用するための内容も含んでいます。内容はWindows 11を使用したパソコンでの実施を想定しています。"
 topics: ["VMWare Workstation Pro", "Claude Code", "仮想環境", "AI", "Windows 11"] # トピック（5つまで）
-published: true # falseだと下書き
+published: false # falseだと下書き
 price: 0 # 有料の場合200〜5000
 chapters:
   - introduction
