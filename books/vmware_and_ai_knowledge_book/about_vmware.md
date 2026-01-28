@@ -43,5 +43,5 @@ IT業界に生息しているとさまざまなOSに触れる機会も増えて�
 
 このような場合にVMWareは1台のPCで複数のOSを気軽に試すことができ、気軽に環境を破壊できるというメリットがあります。
 
-今回は皆さんのPCにVMWare Workstation Proを導入し、Ubuntu Desktopを導入してLinux環境を構築してみましょう！
-※当初RHEL9の予定でしたが、isoファイルの取得にRedHatアカウントの作成が必要で面倒なのでやめます
+今回は皆さんのPCにVMWare Workstation Proを導入し、Ubuntu Serverを導入してLinux環境を構築してみましょう！
+※当初RHEL9の予定でしたが、isoファイルの取得にRedHatアカウントの作成が必要で面倒なのでやめました、ごめんね
